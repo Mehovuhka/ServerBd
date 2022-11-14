@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="./index.js" defer></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="App">
+      <div class="div-functions">
+        <div class="div-get">
+          <input
+            class="inp-table-get"
+            type="text"
+            placeholder="Название таблицы"
+          />
+          <button class="but-get-table">Посмотреть данные таблицы</button>
+          <div class="div-with-info"></div>
+        </div>
+        <div class="div-post">
+          <h2 class="h-text">Добавить запись о выдаче книги</h2>
+          <div class="div-inp">
+            <select class="select-fio" id=""></select>
+            <select class="select-bookname" id=""></select>
+            <input
+              class="inp-amount"
+              type="text"
+              placeholder="Состояние взятия(1 - взял, 0 - отдал)"
+              value="1"
+            />
+          </div>
+          <button class="but-post-table">Добавить запись</button>
+        </div>
+        <div class="div-update">
+          <input class="inp-update" type="text">
+          <button class="but-update-table">Вернуть книгу</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
